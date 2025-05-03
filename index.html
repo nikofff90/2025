@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumuman Kelulusan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="Pelepasan_Siswa.mp4" type="video/mp4">
+        Browser Anda tidak mendukung video.
+    </video>
+
+    <div class="login-box">
+        <h2>Pengumuman Kelulusan 2025</h2>
+        <input type="text" id="nis" placeholder="Masukkan NIS">
+        <input type="text" id="nama" placeholder="Masukkan Nama Lengkap">
+        <button onclick="cekKelulusan()">Cek Kelulusan</button>
+        <p id="hasil"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
